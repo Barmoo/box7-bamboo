@@ -5,17 +5,17 @@ const Showcase = () => {
     {
       name: "Bamboo Toothbrush",
       description: "Eco-friendly bamboo toothbrush with soft bristles.",
-      imageUrl: "/public/images/image-1.jpg"
+      imageUrl: "/images/image-1.jpg"
     },
     {
       name: "Bamboo Straw",
       description: "Reusable bamboo straw, perfect for any drink.",
-      imageUrl: "/public/images/image-2.jpg"
+      imageUrl: "/images/image-2.jpg"
     },
     {
       name: "Bamboo Cutlery Set",
       description: "Sustainable bamboo cutlery set for on-the-go meals.",
-      imageUrl: "/public/images/image-3.jpg"
+      imageUrl: "/images/image-3.jpg"
     }
   ];
 
