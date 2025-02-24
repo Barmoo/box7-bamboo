@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-cover bg-center p-6 flex flex-col justify-center items-center align-middle h-[100vh] border-b-2" style={{ backgroundImage: "url('/public/images/landing-img.jpg')" }}>
+    <div className="relative bg-cover bg-center p-6 flex flex-col justify-center items-center align-middle h-[100vh] border-b-2" style={{ backgroundImage: "url('/images/landing-img.jpg')" }}>
       <div className="absolute inset-0 bg-green-500 opacity-50"></div>
       <div className="relative z-10 text-center">
         <h4 className="text-4xl font-bold text-white mb-4">We are Pretty Best/Excellent/Geek/Affordable/Unique</h4>
