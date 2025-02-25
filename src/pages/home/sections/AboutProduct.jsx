@@ -3,9 +3,11 @@ import { FaLeaf } from 'react-icons/fa';
 
 const AboutProduct = () => {
   return (
-    <div className="bg-cover p-6 flex flex-col justify-center items-center align-middle h-[60vh] border-b-2 bg-gray-100">
-      <h4 className="text-4xl font-bold mb-4 text-center text-gray-800">About the Products and / or Services</h4>
-      <ul className="text-xl text-gray-600 max-w-2xl">
+    <div id="product" className="bg-cover p-6 flex flex-col justify-center items-center align-middle min-h-[60vh] sm:h-[60vh] border-b-2 bg-gray-100">
+      <h4 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center text-gray-800">
+        About the Products and / or Services
+      </h4>
+      <ul className="text-lg sm:text-xl text-gray-600 sm:max-w-lg md:max-w-2xl">
         <li className="flex items-center mb-2">
           <FaLeaf className="text-green-500 mr-2" />
           Bamboo, a fast-growing and sustainable plant, has been a versatile material in art and craftsmanship for centuries.
