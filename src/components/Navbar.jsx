@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 p-6 flex justify-between items-center bg-green-500 z-50">
       <div>
-        <h2 className="text-xl font-bold">Box7 Bamboo Art Ent</h2>
+        <h2 className="text-xl font-bold">Box7 BAMBOO Art Ent</h2>
       </div>
       <div className="hidden md:flex justify-evenly gap-8 lg:gap-16">
         <h4 className="text-lg md:text-xl font-bold"><Link to="product">Home</Link></h4>
