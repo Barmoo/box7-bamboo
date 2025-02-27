@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 p-6 flex justify-between items-center bg-green-200 z-50">
+    <div className="sticky top-0 p-6 flex justify-between items-center bg-green-500 z-50">
       <div>
         <h2 className="text-xl font-bold">Box7 Bamboo Art Ent</h2>
       </div>
