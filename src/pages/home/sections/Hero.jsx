@@ -28,7 +28,7 @@ const Hero = () => {
         <h6 className="text-lg sm:text-xl md:text-2xl italic text-white mb-6">
           The best and healthy way to live a better life is just a choice
         </h6>
-        <button className="bg-green-600 hover:bg-green-700 transition-colors w-32 md:w-[16vh] h-10 md:h-[6vh] rounded-[16px] text-white">
+        <button className="bg-green-600 hover:bg-red-700 transition-colors w-32 md:w-[16vh] h-10 md:h-[6vh] rounded-[16px] text-white">
           Products
         </button>
       </div>
