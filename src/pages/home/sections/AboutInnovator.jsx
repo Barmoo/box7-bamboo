@@ -3,7 +3,7 @@ import innovatorImage from '/images/innovation.jpg';
 
 const AboutInnovator = () => {
   return (
-    <div className="bg-cover p-6 flex flex-col md:flex-row justify-center items-center align-middle border-b-2 gap-6 md:gap-12">
+    <div className="bg-cover p-6 flex flex-col md:flex-row justify-center items-center align-middle gap-6 md:gap-12">
       <div className="flex-1 p-4 text-center md:text-left">
         <h4 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-green-700 tracking-wide">
           About the Innovator
