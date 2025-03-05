@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaHeart } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaHeart, FaTiktok } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -53,10 +53,9 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-white mb-4">Connect With Us</h3>
             <div className="flex justify-center md:justify-end space-x-4">
               {[
-                { icon: FaFacebook, link: "" },
-                { icon: FaTwitter, link: "" },
-                { icon: FaInstagram, link: "" },
-                { icon: FaLinkedin, link: "" }
+                { icon: FaFacebook, link: "https://www.facebook.com/share/1EBS6Uu1N8/" },
+                { icon: FaInstagram, link: "https://www.instagram.com/box7bambooartenterprise?igsh=MTJmbHI2eGw4ZTVsNg==" },
+                { icon: FaTiktok, link: "" }
               ].map((social, index) => (
                 <a
                   key={index}

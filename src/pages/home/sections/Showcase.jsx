@@ -3,14 +3,14 @@ import React from "react";
 const Showcase = () => {
   const products = [
     {
-      name: "Bamboo Toothbrush",
-      description: "Eco-friendly bamboo toothbrush with soft bristles.",
-      imageUrl: "/images/image-1.jpg"
+      name: "Bamboo Ladle",
+      description: "Eco-friendly bamboo ladle for stew.",
+      imageUrl: "/images/image-5.jpg"
     },
     {
-      name: "Bamboo Straw",
-      description: "Reusable bamboo straw, perfect for any drink.",
-      imageUrl: "/images/image-2.jpg"
+      name: "Bamboo Bowl",
+      description: "Heat conductible bowls, perfect for your health.",
+      imageUrl: "/images/image-4.jpg"
     },
     {
       name: "Bamboo Cutlery Set",
