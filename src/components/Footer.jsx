@@ -79,7 +79,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-center text-emerald-100/80 text-sm">
-          <p>© 2025 YAI - Young Africa Innovates. All rights reserved.</p>
+          <p>© 2025 YAI - Box7 BAMBOO Art Ent. All rights reserved.</p>
           <div className="flex items-center mt-4 md:mt-0">
             <span>Made with</span>
             <FaHeart className="mx-1 text-emerald-400 animate-pulse" />
