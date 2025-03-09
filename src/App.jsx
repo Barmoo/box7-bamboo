@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, ScrollRestoration } from "react-router-dom";
 
 import "./App.css";
 import RootLayout from "./layouts/RootLayout";
@@ -29,6 +29,7 @@ function App() {
 
   return (
     <>
+      
       <RouterProvider router={router} />
     </>
   );

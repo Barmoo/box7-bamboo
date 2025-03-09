@@ -1,14 +1,14 @@
 import React from "react";
-import innovatorImage from '/images/innovation.jpg';
+import innovatorImage from '/images/image-6.jpg';
 
 const AboutInnovator = () => {
   return (
-    <div className="bg-cover p-6 flex flex-col md:flex-row justify-center items-center align-middle gap-6 md:gap-12">
-      <div className="flex-1 p-4 text-center md:text-left">
+    <div className="bg-cover py-16 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center items-center align-middle gap-6 md:gap-16 max-w-7xl mx-auto">
+      <div className="flex-1 p-4 text-center md:text-left max-w-xl">
         <h4 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-green-700 tracking-wide">
           About the Innovator
         </h4>
-        <ul className="text-lg sm:text-xl md:text-2xl space-y-6 list-none pl-6">
+        <ul className="text-lg sm:text-xl space-y-6 list-none pl-6">
           {[
             "Francis Biney blends sustainability with artistic craftsmanship in unique ways",
             "Creates handcrafted, biodegradable alternatives to mass-produced plastic utensils",
@@ -24,12 +24,17 @@ const AboutInnovator = () => {
           ))}
         </ul>
       </div>
-      <div className="flex-1 p-4">
-        <img 
-          src={innovatorImage} 
-          alt="Innovator" 
-          className="w-full h-auto rounded-lg shadow-xl hover:scale-105 transition-transform duration-300" 
-        />
+      <div className="flex-1 p-4 max-w-md lg:max-w-lg">
+        <div className="relative group">
+          <div className="absolute -inset-2 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+          <img 
+            src={innovatorImage} 
+            alt="Innovator" 
+            className="relative w-full h-[500px] object-cover object-center rounded-lg shadow-xl 
+                     hover:scale-[1.02] transition-all duration-500
+                     ring-1 ring-gray-200/50 ring-offset-2" 
+          />
+        </div>
       </div>
     </div>
   );
