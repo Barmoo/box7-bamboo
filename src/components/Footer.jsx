@@ -55,7 +55,7 @@ const Footer = () => {
               {[
                 { icon: FaFacebook, link: "https://www.facebook.com/share/1EBS6Uu1N8/" },
                 { icon: FaInstagram, link: "https://www.instagram.com/box7bambooartenterprise?igsh=MTJmbHI2eGw4ZTVsNg==" },
-                { icon: FaTiktok, link: "" }
+                { icon: FaTiktok, link: "https://www.tiktok.com/@box7bambooartenterprise?_t=ZM-8uVnHB5iI5u&_r=1" }
               ].map((social, index) => (
                 <a
                   key={index}
