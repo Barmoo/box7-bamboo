@@ -8,9 +8,9 @@ const AboutInnovator = () => {
       <div className="absolute top-0 left-0 w-96 h-96 bg-emerald-100/50 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-100/50 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
 
-      <div className="relative py-20 px-4 sm:px-6 lg:px-8">
+      <div className="relative pt-8 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-12 md:gap-16">
+          <div className="flex flex-col md:flex-row justify-start items-start gap-12 md:gap-16">
             {/* Text Content */}
             <div className="flex-1 p-6 backdrop-blur-sm bg-white/40 rounded-2xl shadow-lg max-w-xl">
               <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 text-emerald-800 tracking-tight">
@@ -38,7 +38,7 @@ const AboutInnovator = () => {
             </div>
 
             {/* Enhanced Image Section */}
-            <div className="flex-1 max-w-lg">
+            <div className="flex-1 max-w-lg sticky top-20">
               <div className="relative group">
                 {/* Multiple decorative layers */}
                 <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500 to-green-500 rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition duration-500"></div>
@@ -60,7 +60,7 @@ const AboutInnovator = () => {
                     <img 
                       src={innovatorImage} 
                       alt="Innovator" 
-                      className="w-full h-[600px] object-cover object-center rounded-xl shadow-2xl 
+                      className="w-full h-[500px] object-cover object-center rounded-xl shadow-2xl 
                                transform group-hover:scale-[1.02] transition-all duration-700" 
                     />
                     
